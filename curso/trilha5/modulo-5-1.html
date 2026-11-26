@@ -78,7 +78,7 @@
         <div class="flex items-center space-x-1 sm:space-x-2">
           <a href="../trilha1/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
           <a href="../trilha2/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Setup</span></a>
-          <a href="../trilha3/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Operação</span></a>
+          <a href="../trilha3/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Operaçêo</span></a>
           <a href="../trilha4/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Diagnóstico</span></a>
           <a href="index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-teal-400 bg-teal-500/10"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Multi-runtime</span></a>
           <a href="../trilha6/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-pink-400 hover:bg-pink-500/10 transition-colors"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Visual</span></a>
@@ -110,7 +110,7 @@
         <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
         <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">50</div><div class="text-xs text-neutral-400">Minutos</div></div>
         <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Avançado</div><div class="text-xs text-neutral-400">Nível</div></div>
-        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Mão na massa</div><div class="text-xs text-neutral-400">Tipo</div></div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-teal-400">Mêo na massa</div><div class="text-xs text-neutral-400">Tipo</div></div>
       </div>
     </div>
   </header>
@@ -148,12 +148,12 @@
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">2</span>
         <h2 class="text-2xl font-bold">⚙️ Config global [agents]</h2>
       </div>
-      <p class="text-neutral-300 mb-6 leading-relaxed">Seção <code class="text-teal-400">[agents]</code> no config global controla concorrência. <strong class="text-teal-400">Sem isso, swarms descontrolados</strong>.</p>
+      <p class="text-neutral-300 mb-6 leading-relaxed">Seçêo <code class="text-teal-400">[agents]</code> no config global controla concorrência. <strong class="text-teal-400">Sem isso, swarms descontrolados</strong>.</p>
       <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-blue-400 mb-4">📊 Defaults importantes</h3>
         <ul class="space-y-2 text-neutral-300">
           <li>max_threads = 6 (paralelismo)</li>
-          <li>max_depth = 1 (recursão)</li>
+          <li>max_depth = 1 (recursêo)</li>
           <li>job_max_runtime_seconds = ?</li>
           <li>Threads = N de agents simultâneos</li>
           <li>Depth = quanto pode recursar</li>
@@ -205,7 +205,7 @@
       </div>
       <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-red-400 mb-3">⚠️ Respeita max_threads</h3>
-        <p class="text-neutral-300">Não tente burlar com batch — Codex respeita max_threads global.</p>
+        <p class="text-neutral-300">Nêo tente burlar com batch — Codex respeita max_threads global.</p>
       </div>
     </section>
 
@@ -214,7 +214,7 @@
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">5</span>
         <h2 class="text-2xl font-bold">🛡️ Sandbox e approval inheritance</h2>
       </div>
-      <p class="text-neutral-300 mb-6 leading-relaxed">Subagents <strong class="text-teal-400">herdam sandbox e approval policies do parent</strong>. Em CI/non-interactive, approval que não consegue subir falha o run.</p>
+      <p class="text-neutral-300 mb-6 leading-relaxed">Subagents <strong class="text-teal-400">herdam sandbox e approval policies do parent</strong>. Em CI/non-interactive, approval que nêo consegue subir falha o run.</p>
       <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-teal-400 mb-4">📌 Modos sandbox</h3>
         <p class="text-neutral-300 mb-4">Do mais restrito ao mais permissivo.</p>
@@ -234,7 +234,7 @@
     <section id="topico-6" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-teal-500/20 text-teal-400 font-bold text-xl">6</span>
-        <h2 class="text-2xl font-bold">🎼 Symphony: orquestração no Linear</h2>
+        <h2 class="text-2xl font-bold">🎼 Symphony: orquestraçêo no Linear</h2>
       </div>
       <p class="text-neutral-300 mb-6 leading-relaxed">Spec open-source da OpenAI que turbinou times reportadamente em <strong class="text-teal-400">+500% de PRs aterrissados</strong> ao usar Linear como control plane.</p>
       <div class="bg-gradient-to-br from-teal-900/30 to-dark-800 rounded-xl border border-teal-500/30 p-6 mb-6">
@@ -249,7 +249,7 @@
         </ul>
       </div>
       <div class="bg-primary/10 rounded-xl border border-primary/40 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-primary mb-3">💡 Padrão a observar</h3>
+        <h3 class="text-lg font-semibold text-primary mb-3">💡 Padrêo a observar</h3>
         <p class="text-neutral-300">Mesmo se você usa Claude Code Teams hoje, Symphony aponta para o ano que vem.</p>
       </div>
     </section>
@@ -263,7 +263,7 @@
           <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Nicknames e display</strong><span class="text-neutral-400"> — nickname_candidates</span></div></div>
           <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">spawn_agents_on_csv</strong><span class="text-neutral-400"> — Batch experimental</span></div></div>
           <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Sandbox e approval inheritance</strong><span class="text-neutral-400"> — Política do pai</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Symphony: orquestração no Linear</strong><span class="text-neutral-400"> — Spec aberto</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-teal-400 mt-1">✓</span><div><strong class="text-white">Symphony: orquestraçêo no Linear</strong><span class="text-neutral-400"> — Spec aberto</span></div></div>
         </div>
         <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
           <h3 class="font-semibold text-teal-400 mb-2">Próximo módulo:</h3>

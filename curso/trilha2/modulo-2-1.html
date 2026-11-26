@@ -78,7 +78,7 @@
         <div class="flex items-center space-x-1 sm:space-x-2">
           <a href="../trilha1/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
           <a href="index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Setup</span></a>
-          <a href="../trilha3/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Operação</span></a>
+          <a href="../trilha3/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Operaçêo</span></a>
           <a href="../trilha4/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Diagnóstico</span></a>
           <a href="../trilha5/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Multi-runtime</span></a>
           <a href="../trilha6/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-pink-400 hover:bg-pink-500/10 transition-colors"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Visual</span></a>
@@ -110,7 +110,7 @@
         <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">6</div><div class="text-xs text-neutral-400">Tópicos</div></div>
         <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">50</div><div class="text-xs text-neutral-400">Minutos</div></div>
         <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Intermediário</div><div class="text-xs text-neutral-400">Nível</div></div>
-        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Mão na massa</div><div class="text-xs text-neutral-400">Tipo</div></div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600"><div class="text-xl font-bold text-blue-400">Mêo na massa</div><div class="text-xs text-neutral-400">Tipo</div></div>
       </div>
     </div>
   </header>
@@ -120,7 +120,7 @@
     <section id="topico-1" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
-        <h2 class="text-2xl font-bold">🚀 Versão e flag experimental</h2>
+        <h2 class="text-2xl font-bold">🚀 Versêo e flag experimental</h2>
       </div>
       <p class="text-neutral-300 mb-6 leading-relaxed">Pré-requisito hard: Claude Code v2.1.32+. Verifique com <code class="text-blue-400">claude --version</code>. Habilite com <code class="text-blue-400">CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1</code> em settings.json (projeto ou user) ou no env.</p>
       <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
@@ -129,13 +129,13 @@
         <ul class="space-y-2 text-neutral-300">
           <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><code>.claude/settings.json</code> — projeto</span></li>
           <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><code>~/.claude/settings.json</code> — user</span></li>
-          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>Variável de ambiente — sessão</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>Variável de ambiente — sessêo</span></li>
           <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span>Recomendado: settings.local.json no projeto</span></li>
         </ul>
       </div>
       <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-red-400 mb-3">⚠️ Erro silencioso</h3>
-        <p class="text-neutral-300">Sem a flag, comandos de team falham sem mensagem clara. Sintoma: 'Claude não cria os agentes'.</p>
+        <p class="text-neutral-300">Sem a flag, comandos de team falham sem mensagem clara. Sintoma: 'Claude nêo cria os agentes'.</p>
       </div>
     </section>
 
@@ -144,7 +144,7 @@
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
         <h2 class="text-2xl font-bold">🖥️ Modos de display</h2>
       </div>
-      <p class="text-neutral-300 mb-6 leading-relaxed"><code class="text-blue-400">teammateMode</code> aceita 3 valores. Padrão é <strong class="text-blue-400">auto</strong>: usa tmux se já estiver dentro de tmux, senão in-process. Para forçar, use <code class="text-blue-400">--teammate-mode</code>.</p>
+      <p class="text-neutral-300 mb-6 leading-relaxed"><code class="text-blue-400">teammateMode</code> aceita 3 valores. Padrêo é <strong class="text-blue-400">auto</strong>: usa tmux se já estiver dentro de tmux, senêo in-process. Para forçar, use <code class="text-blue-400">--teammate-mode</code>.</p>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div class="bg-emerald-900/20 rounded-xl border border-emerald-500/30 p-6">
           <h4 class="font-bold text-emerald-400 mb-4">✓ Tmux/iTerm2 (split-pane)</h4>
@@ -158,9 +158,9 @@
         <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
           <h4 class="font-bold text-red-400 mb-4">✗ VS Code/Win Terminal/Ghostty</h4>
           <ul class="space-y-3 text-neutral-300 text-sm">
-            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>NÃO suportam split</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>NêO suportam split</span></li>
             <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Use in-process</span></li>
-            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Funciona, só não é split</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Funciona, só nêo é split</span></li>
             <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Cheque <code>which tmux</code></span></li>
           </ul>
         </div>
@@ -170,9 +170,9 @@
     <section id="topico-3" class="mb-16">
       <div class="flex items-center space-x-4 mb-6">
         <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
-        <h2 class="text-2xl font-bold">🔐 Permissões herdadas e pré-aprovação</h2>
+        <h2 class="text-2xl font-bold">🔐 Permissões herdadas e pré-aprovaçêo</h2>
       </div>
-      <p class="text-neutral-300 mb-6 leading-relaxed">Teammates herdam permissões do lead. Sem pré-aprovação, cada um pausa pedindo permissão a cada <code class="text-blue-400">npm</code>/<code class="text-blue-400">git</code>. Allowlist no settings é a primeira correção que dobra produtividade.</p>
+      <p class="text-neutral-300 mb-6 leading-relaxed">Teammates herdam permissões do lead. Sem pré-aprovaçêo, cada um pausa pedindo permissêo a cada <code class="text-blue-400">npm</code>/<code class="text-blue-400">git</code>. Allowlist no settings é a primeira correçêo que dobra produtividade.</p>
       <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-blue-400 mb-4">📌 Allowlist canônica para projetos JS</h3>
         <p class="text-neutral-300 mb-4">Padrões de comando que cobrem 90% dos casos.</p>
@@ -186,7 +186,7 @@
       </div>
       <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6 mb-6">
         <h3 class="text-lg font-semibold text-red-400 mb-3">⚠️ --dangerously-skip-permissions</h3>
-        <p class="text-neutral-300">É pegada: liga em produção e pode rodar rm -rf por engano. Use só em dev isolado.</p>
+        <p class="text-neutral-300">É pegada: liga em produçêo e pode rodar rm -rf por engano. Use só em dev isolado.</p>
       </div>
     </section>
 
@@ -219,8 +219,8 @@
       </div>
       <p class="text-neutral-300 mb-6 leading-relaxed">MCP servers e skills configurados no projeto/user ficam disponíveis a todos os teammates. Configurar 1 vez vale para 5+ teammates. <strong class="text-blue-400">É uma alavanca enorme</strong> que muitos esquecem.</p>
       <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6 mb-6">
-        <h3 class="text-lg font-semibold text-red-400 mb-3">⚠️ Subagent definitions são exceção</h3>
-        <p class="text-neutral-300">Quando você usa um subagent definition como tipo de teammate, os campos <code class="text-blue-400">skills</code> e <code class="text-blue-400">mcpServers</code> do frontmatter são ignorados — teammates carregam sempre do projeto/user.</p>
+        <h3 class="text-lg font-semibold text-red-400 mb-3">⚠️ Subagent definitions sêo exceçêo</h3>
+        <p class="text-neutral-300">Quando você usa um subagent definition como tipo de teammate, os campos <code class="text-blue-400">skills</code> e <code class="text-blue-400">mcpServers</code> do frontmatter sêo ignorados — teammates carregam sempre do projeto/user.</p>
       </div>
       <div class="bg-primary/10 rounded-xl border border-primary/40 p-6 mb-6">
         <h3 class="text-lg font-semibold text-primary mb-3">💡 Skills úteis para teams</h3>
@@ -264,7 +264,7 @@
           <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
             <h4 class="font-semibold text-white mb-2">Retrabalho</h4>
             <p class="text-sm text-neutral-400 mb-3">Backend e Frontend reagem</p>
-            <p class="text-neutral-300 text-sm">Edição direta sem passar pelo lead</p>
+            <p class="text-neutral-300 text-sm">Ediçêo direta sem passar pelo lead</p>
           </div>
         </div>
         <div class="flex items-start space-x-4">
@@ -278,7 +278,7 @@
       </div>
       <div class="bg-primary/10 rounded-xl border border-primary/40 p-6 mb-6">
         <h3 class="text-lg font-semibold text-primary mb-3">💡 Se o smoke passa, setup está sólido</h3>
-        <p class="text-neutral-300">Daí em diante, qualquer falha é prompt, não configuração.</p>
+        <p class="text-neutral-300">Daí em diante, qualquer falha é prompt, nêo configuraçêo.</p>
       </div>
     </section>
 
@@ -286,9 +286,9 @@
       <div class="bg-gradient-to-br from-blue-900/40 via-dark-800 to-dark-800 rounded-xl border border-blue-500/30 p-8">
         <h2 class="text-2xl font-bold mb-6">📌 Resumo do Módulo</h2>
         <div class="space-y-4 mb-8">
-          <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Versão e flag experimental</strong><span class="text-neutral-400"> — v2.1.32+ + AGENT_TEAMS=1</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Versêo e flag experimental</strong><span class="text-neutral-400"> — v2.1.32+ + AGENT_TEAMS=1</span></div></div>
           <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Modos de display</strong><span class="text-neutral-400"> — auto, tmux, in-process</span></div></div>
-          <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Permissões herdadas e pré-aprovação</strong><span class="text-neutral-400"> — Reduzir prompts no spawn</span></div></div>
+          <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Permissões herdadas e pré-aprovaçêo</strong><span class="text-neutral-400"> — Reduzir prompts no spawn</span></div></div>
           <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Treinar o repo com docs locais</strong><span class="text-neutral-400"> — Aprende uma vez, usa sempre</span></div></div>
           <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">MCP servers e skills herdadas</strong><span class="text-neutral-400"> — Toda a equipe ganha de fábrica</span></div></div>
           <div class="flex items-start space-x-3"><span class="text-blue-400 mt-1">✓</span><div><strong class="text-white">Smoke test: o demo Neuroflow</strong><span class="text-neutral-400"> — Validar setup em 15 minutos</span></div></div>

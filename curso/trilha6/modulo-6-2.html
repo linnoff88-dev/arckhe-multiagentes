@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Módulo 6.2 - Configuração & Prompting | Equipes de Agentes</title>
+  <title>Módulo 6.2 - Configuraçêo & Prompting | Equipes de Agentes</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = { darkMode: 'class', theme: { extend: { colors: { primary: '#FACC15', dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' } } } } }
@@ -71,7 +71,7 @@
         <div class="flex items-center space-x-1 sm:space-x-2">
           <a href="../trilha1/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors"><span class="sm:hidden">T1</span><span class="hidden sm:inline">Fundamentos</span></a>
           <a href="../trilha2/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors"><span class="sm:hidden">T2</span><span class="hidden sm:inline">Setup</span></a>
-          <a href="../trilha3/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Operação</span></a>
+          <a href="../trilha3/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors"><span class="sm:hidden">T3</span><span class="hidden sm:inline">Operaçêo</span></a>
           <a href="../trilha4/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors"><span class="sm:hidden">T4</span><span class="hidden sm:inline">Diagnóstico</span></a>
           <a href="../trilha5/index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-teal-400 hover:bg-teal-500/10 transition-colors"><span class="sm:hidden">T5</span><span class="hidden sm:inline">Multi-runtime</span></a>
           <a href="index.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-pink-400 bg-pink-500/10"><span class="sm:hidden">T6</span><span class="hidden sm:inline">Visual</span></a>
@@ -97,8 +97,8 @@
   <header class="bg-gradient-to-br from-pink-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <span class="inline-block px-3 py-1 bg-pink-500/20 text-pink-400 text-xs font-semibold rounded-full mb-4">MÓDULO 6.2</span>
-      <h1 class="text-3xl sm:text-4xl font-bold mb-4">⚙️ Configuração & prompting</h1>
-      <p class="text-lg text-neutral-400 max-w-3xl">Como ligar Equipes no settings.json, o template de prompt que sempre funciona e a tabela FAÇA / NÃO FAÇA.</p>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">⚙️ Configuraçêo & prompting</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Como ligar Equipes no settings.json, o template de prompt que sempre funciona e a tabela FAÇA / NêO FAÇA.</p>
     </div>
   </header>
 
@@ -118,7 +118,7 @@
       <div class="grid md:grid-cols-2 gap-4 mb-6">
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-5">
           <h3 class="text-pink-400 font-semibold mb-2">🔍 O que mostra</h3>
-          <p class="text-neutral-300 text-sm leading-relaxed">A flag única que liga a feature: dentro de <code class="text-pink-400">settings.json</code>, a seção <code class="text-pink-400">"env"</code> recebe a variável <code class="text-pink-400">"AGENT_TEAMS": 1</code>. À direita, a tela "Equipes Ativas ✓" com 3 agentinhos confirmando que o orquestrador agora pode spawnar teammates de verdade.</p>
+          <p class="text-neutral-300 text-sm leading-relaxed">A flag única que liga a feature: dentro de <code class="text-pink-400">settings.json</code>, a seçêo <code class="text-pink-400">"env"</code> recebe a variável <code class="text-pink-400">"AGENT_TEAMS": 1</code>. À direita, a tela "Equipes Ativas ✓" com 3 agentinhos confirmando que o orquestrador agora pode spawnar teammates de verdade.</p>
         </div>
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-5">
           <h3 class="text-pink-400 font-semibold mb-2">🎯 Como aplicar</h3>
@@ -131,8 +131,8 @@
         <ul class="space-y-2 text-neutral-300 text-sm">
           <li><strong class="text-pink-400">📄 settings.json</strong> — arquivo de config. Pode ser global (<code>~/.claude/</code>) ou de projeto (<code>.claude/</code>).</li>
           <li><strong class="text-pink-400">"env": &#123; "AGENT_TEAMS": 1 &#125;</strong> — exatamente esse JSON liga a feature.</li>
-          <li><strong class="text-pink-400">🖥️ "Equipes Ativas ✓"</strong> — confirmação visual que o Claude Code reconhece a flag.</li>
-          <li><strong class="text-pink-400">"Adicionar ao config"</strong> — note que o legend não diz "executar comando"; é apenas edição de JSON.</li>
+          <li><strong class="text-pink-400">🖥️ "Equipes Ativas ✓"</strong> — confirmaçêo visual que o Claude Code reconhece a flag.</li>
+          <li><strong class="text-pink-400">"Adicionar ao config"</strong> — note que o legend nêo diz "executar comando"; é apenas ediçêo de JSON.</li>
         </ul>
       </div>
     </section>
@@ -175,7 +175,7 @@
     <section>
       <div class="flex items-center space-x-3 mb-6">
         <span class="w-10 h-10 rounded-full bg-pink-500/20 text-pink-400 text-lg font-bold flex items-center justify-center">3</span>
-        <h2 class="text-2xl font-bold">FAÇA / NÃO FAÇA</h2>
+        <h2 class="text-2xl font-bold">FAÇA / NêO FAÇA</h2>
       </div>
 
       <div class="img-card mb-6">
@@ -185,7 +185,7 @@
       <div class="grid md:grid-cols-2 gap-4 mb-6">
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-5">
           <h3 class="text-pink-400 font-semibold mb-2">🔍 O que mostra</h3>
-          <p class="text-neutral-300 text-sm leading-relaxed">Tabela espelhada com 5 pares lado a lado. <strong>FAÇA</strong> (verde): defina responsáveis por arquivo, defina entregáveis, nomeie destinatários, mantenha 3–5 integrantes, dê contexto completo. <strong>NÃO FAÇA</strong> (vermelho): compartilhar mesmo arquivo, entregáveis vagos, pressupor o plano, 10+ integrantes, sem contexto prévio.</p>
+          <p class="text-neutral-300 text-sm leading-relaxed">Tabela espelhada com 5 pares lado a lado. <strong>FAÇA</strong> (verde): defina responsáveis por arquivo, defina entregáveis, nomeie destinatários, mantenha 3–5 integrantes, dê contexto completo. <strong>NêO FAÇA</strong> (vermelho): compartilhar mesmo arquivo, entregáveis vagos, pressupor o plano, 10+ integrantes, sem contexto prévio.</p>
         </div>
         <div class="bg-dark-800 rounded-xl border border-dark-600 p-5">
           <h3 class="text-pink-400 font-semibold mb-2">🎯 Como aplicar</h3>
@@ -196,11 +196,11 @@
       <div class="bg-pink-500/10 border border-pink-500/30 rounded-xl p-5">
         <h3 class="text-pink-400 font-semibold mb-3">🗺️ Decodificando os 5 pares</h3>
         <ul class="space-y-2 text-neutral-300 text-sm">
-          <li><strong class="text-pink-400">Responsáveis ↔ mesmo arquivo</strong> — territórios disjuntos previnem conflitos de edição.</li>
-          <li><strong class="text-pink-400">Entregáveis claros ↔ entregáveis vagos</strong> — "produzir um relatório" é vago; "produzir <code>tests/report.md</code> com seção X" é claro.</li>
-          <li><strong class="text-pink-400">Nomear destinatários ↔ pressupor o plano</strong> — diga "envie o spec para o Backend Dev"; não assuma que o teammate vai descobrir.</li>
-          <li><strong class="text-pink-400">3–5 ↔ 10+</strong> — orçamento humano de orquestração; acima de 5 a coordenação degrada.</li>
-          <li><strong class="text-pink-400">Contexto completo ↔ sem contexto</strong> — teammates não veem seu chat (ver módulo 6.3).</li>
+          <li><strong class="text-pink-400">Responsáveis ↔ mesmo arquivo</strong> — territórios disjuntos previnem conflitos de ediçêo.</li>
+          <li><strong class="text-pink-400">Entregáveis claros ↔ entregáveis vagos</strong> — "produzir um relatório" é vago; "produzir <code>tests/report.md</code> com seçêo X" é claro.</li>
+          <li><strong class="text-pink-400">Nomear destinatários ↔ pressupor o plano</strong> — diga "envie o spec para o Backend Dev"; nêo assuma que o teammate vai descobrir.</li>
+          <li><strong class="text-pink-400">3–5 ↔ 10+</strong> — orçamento humano de orquestraçêo; acima de 5 a coordenaçêo degrada.</li>
+          <li><strong class="text-pink-400">Contexto completo ↔ sem contexto</strong> — teammates nêo veem seu chat (ver módulo 6.3).</li>
         </ul>
       </div>
     </section>
