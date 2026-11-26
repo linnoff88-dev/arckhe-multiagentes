@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gerador de páginas de módulo no formato INEMA.CLUB.
+"""Gerador de páginas de módulo no formato ARCKHÉ AI.
 
 Lê dados de cada módulo do dicionário MODULES e produz arquivos HTML em
 curso/trilhaN/modulo-N-Y.html seguindo o template do MASTER.
@@ -271,7 +271,7 @@ def render_module(m: Module):
             <span class="font-bold text-lg hidden sm:inline">Equipes de Agentes</span>
           </a>
           <span class="text-neutral-600">|</span>
-          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+          <a href="https://ARCKHÉ AI" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">ARCKHÉ AI</a>
         </div>
         <div class="flex items-center space-x-1 sm:space-x-2">
           {nav_links}

@@ -54,7 +54,7 @@ Curso completo sobre como projetar, orquestrar e operar squads de agentes de IA 
 - Inter (Google Fonts)
 - Dark/light toggle persistente em `localStorage`
 - TêÂ³picos expansêÂ­veis com JS vanilla
-- PadrêÂ£o visual INEMA.CLUB
+- PadrêÂ£o visual ARCKHÉ AI
 
 ---
 
